@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+}
+.todo-head{
+    background-color: #9f72d5;
+    width: 40vw;
+    height: 60px;
+    margin: auto;
+    margin-top: 100px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.todo-date{
+    color: rgb(255, 255, 255);
+}
+
+.todo-motiv{
+    
+    width: 40vw;
+    height: 60px;
+    margin: auto;
+    margin-top: 5px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.add-todo{
+    width: 40vw;
+    margin: auto;
+    margin-top: 7px;
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.todo-input{
+    width: 33vw;
+    height: 55px;
+    border: none;
+    text-align: center;
+    padding: 0 10px;
+    outline: none;
+    
+}
+.todo-input:focus{
+    text-align: left;
+}
+
+.add-button{
+    width: 6vw;
+    background-color: #9f72d5;
+    float: right;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.list-todo{
+    width: 40vw;
+    padding: 10px;
+    background-color: white;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.todo-task{
+    width: 39vw;
+    background-color: rgba(234, 234, 234, 0.389);
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 30px;
+    /* border: 1px solid rgba(128, 128, 128, 0.182); */
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.todo-del{
+    float: right;
+    height: 40px;
+    width: 65px;
+    background-color: #9f72d5;
+    border-radius: 30px;
+    color: white;
+    border: none;
+}
+
+.error-div{
+    width: 40vw;
+    margin: auto;
+    padding: 5px;
+    text-align: left;
+    
+}
+.error-message{
+    margin-top: 0;
+    color: red;
+}
+
+.empty-todo{
+    margin: auto;
+    background-color: white;
+    width: 40vw;
+    
+}
+.notodo{
+    margin-top: 0;
+    color: #005468;
+}
+.emptyImg{
+    margin-top: 10px;
+    width: 30vw;
+    
+}
